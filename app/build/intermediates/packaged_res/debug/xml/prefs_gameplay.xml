@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Oynanış">
+
+        <SeekBarPreference
+            android:key="joystick_sensitivity"
+            android:title="Joystick Hassasiyeti"
+            android:defaultValue="100"
+            android:max="200"
+            app:min="50"
+            app:seekBarIncrement="5"
+            app:showSeekBarValue="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            android:key="left_handed"
+            android:title="Solak Kontroller"
+            android:summary="Joystick sağda, şut solda"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            android:key="vibration_enabled"
+            android:title="Titreşim"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Görsel">
+        <ListPreference
+            android:key="graphics_quality"
+            android:title="Grafik Kalitesi"
+            android:defaultValue="medium"
+            android:entries="@array/graphics_quality_entries"
+            android:entryValues="@array/graphics_quality_values"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Diğer">
+        <Preference
+            android:key="reset_defaults"
+            android:title="Varsayılanlara Dön"
+            android:summary="Ayarları fabrika değerlerine sıfırla"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

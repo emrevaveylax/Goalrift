@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pitch_green">#0B8F3A</color>
+    <color name="ui_grey">#333333</color>
+    <color name="goal_yellow">#FFC107</color>
+</resources>

@@ -1,0 +1,16 @@
+com.goalrift.football.game
+id btnActiveArkaPlan
+id btnActiveFieldBlue
+id btnActiveForma
+id btnActiveFormaGold
+id btnActiveTop
+id btnActiveTopGold
+id btnBack
+id btnBuyArkaPlan
+id btnBuyFieldBlue
+id btnBuyForma
+id btnBuyFormaGold
+id btnBuyTop
+id btnBuyTopGold
+id jetonText
+layout activity_store

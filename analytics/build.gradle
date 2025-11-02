@@ -1,0 +1,14 @@
+plugins { id 'com.android.library' }
+
+android {
+    namespace 'com.goalrift.football.analytics'
+    compileSdk 35
+    defaultConfig {
+        minSdk 23
+        // targetSdk YOK
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

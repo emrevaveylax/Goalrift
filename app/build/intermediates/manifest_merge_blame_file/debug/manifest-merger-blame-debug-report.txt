@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.goalrift.football.app"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\61f53c7548118299f05e2e4f514b7b8c\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+12        android:name="com.goalrift.football.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\61f53c7548118299f05e2e4f514b7b8c\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\61f53c7548118299f05e2e4f514b7b8c\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.goalrift.football.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\61f53c7548118299f05e2e4f514b7b8c\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\61f53c7548118299f05e2e4f514b7b8c\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:4:5-57:19
+18        android:allowBackup="true"
+18-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\61f53c7548118299f05e2e4f514b7b8c\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:6:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:7:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:8:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:9:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Goalrift" >
+27-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:10:9-46
+28
+29        <!-- Login ekranı açılışta gözükecek -->
+30        <activity
+30-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:13:9-22:20
+31            android:name="com.goalrift.football.app.LoginActivity"
+31-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:14:13-42
+32            android:exported="true"
+32-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:15:13-36
+33            android:screenOrientation="sensorLandscape"
+33-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:16:13-56
+34            android:windowSoftInputMode="stateVisible|adjustResize" >
+34-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:17:13-68
+35            <intent-filter>
+35-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:18:13-21:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:19:17-68
+36-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:19:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:20:17-76
+38-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:20:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <!-- Ana menü -->
+43        <activity
+43-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:26:9-31:49
+44            android:name="com.goalrift.football.app.MainActivity"
+44-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:27:13-41
+45            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+45-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:29:13-81
+46            android:exported="true"
+46-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:28:13-36
+47            android:resizeableActivity="false"
+47-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:31:13-47
+48            android:screenOrientation="sensorLandscape" />
+48-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:30:13-56
+49
+50        <!-- Oyun ekranı -->
+51        <activity
+51-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:34:9-39:49
+52            android:name="com.goalrift.football.game.ui.play.GameActivity"
+52-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:35:13-75
+53            android:configChanges="orientation|keyboardHidden|screenSize|uiMode"
+53-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:37:13-81
+54            android:exported="false"
+54-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:36:13-37
+55            android:resizeableActivity="false"
+55-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:39:13-47
+56            android:screenOrientation="sensorLandscape" />
+56-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:38:13-56
+57
+58        <!-- Ayarlar -->
+59        <activity
+59-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:42:9-48:58
+60            android:name="com.goalrift.football.app.SettingsActivity"
+60-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:43:13-45
+61            android:exported="false"
+61-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:45:13-37
+62            android:label="Ayarlar"
+62-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:44:13-36
+63            android:parentActivityName="com.goalrift.football.app.MainActivity"
+63-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:48:13-55
+64            android:screenOrientation="sensorLandscape"
+64-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:46:13-56
+65            android:theme="@style/Theme.Haxlite.Settings" />
+65-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:47:13-58
+66        <activity
+66-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:50:9-53:71
+67            android:name="com.goalrift.football.game.ui.store.StoreActivity"
+67-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:50:19-83
+68            android:exported="false"
+68-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:51:13-37
+69            android:label="Mağaza"
+69-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:52:13-35
+70            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+70-->C:\Users\Emre\AndroidStudioProjects\Goalrift\app\src\main\AndroidManifest.xml:53:13-69
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\e888638cfb5587f1838bc6e5ef2f7f60\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\e888638cfb5587f1838bc6e5ef2f7f60\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+74            android:authorities="com.goalrift.football.app.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\e888638cfb5587f1838bc6e5ef2f7f60\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\e888638cfb5587f1838bc6e5ef2f7f60\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\e888638cfb5587f1838bc6e5ef2f7f60\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\e888638cfb5587f1838bc6e5ef2f7f60\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\e888638cfb5587f1838bc6e5ef2f7f60\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\fbbdef99a6759882e6b215f00c36b942\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\fbbdef99a6759882e6b215f00c36b942\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\fbbdef99a6759882e6b215f00c36b942\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+84                android:value="androidx.startup" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+85        </provider>
+86
+87        <uses-library
+87-->[androidx.window:window:1.0.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\cf3fad39593ed93a1f50a6620726c7d2\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+88            android:name="androidx.window.extensions"
+88-->[androidx.window:window:1.0.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\cf3fad39593ed93a1f50a6620726c7d2\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\cf3fad39593ed93a1f50a6620726c7d2\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+90        <uses-library
+90-->[androidx.window:window:1.0.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\cf3fad39593ed93a1f50a6620726c7d2\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+91            android:name="androidx.window.sidecar"
+91-->[androidx.window:window:1.0.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\cf3fad39593ed93a1f50a6620726c7d2\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\cf3fad39593ed93a1f50a6620726c7d2\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+93
+94        <receiver
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+96            android:directBootAware="false"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+97            android:enabled="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+98            android:exported="true"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+99            android:permission="android.permission.DUMP" >
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Emre\.gradle\caches\9.0-milestone-1\transforms\ed4e82ae2f47ce339e47f4ef9b4da1f0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+111            </intent-filter>
+112        </receiver>
+113    </application>
+114
+115</manifest>

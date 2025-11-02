@@ -1,0 +1,18 @@
+plugins { id 'com.android.library' }
+android {
+    namespace 'com.goalrift.football.game'
+    compileSdk 35
+    defaultConfig {
+        minSdk 23
+        targetSdk 34
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+dependencies {
+    implementation project(':net')
+    implementation project(':analytics')
+    implementation 'androidx.preference:preference:1.2.1'
+}

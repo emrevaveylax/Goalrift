@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Uygulamaya özel bir tema adı veriyoruz ve gerçek parent olarak Material3 seçiyoruz -->
+    <style name="Theme.Goalrift" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- İstersen sistem status bar rengi -->
+        <item name="android:statusBarColor">@color/ui_grey</item>
+        <!-- opsiyonel: Material3 renkleri -->
+        <!-- <item name="colorPrimary">@color/goal_yellow</item> -->
+        <item name="android:windowBackground">@drawable/bg_stadium</item>
+
+    </style>
+</resources>

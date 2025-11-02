@@ -1,0 +1,30 @@
+package com.goalrift.football.app.utils;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+public class JetonManager {
+    private static final String PREF_NAME = "jeton_prefs";
+    private static final String KEY_JETON = "jeton";
+    private SharedPreferences prefs;
+
+    public JetonManager(Context context) {
+        prefs = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
+    }
+
+    // Kaç jetonun var
+    public int getJeton() {
+        return prefs.getInt(KEY_JETON, 0);
+    }
+
+    // Jeton ekle
+    public void addJeton(int amount) {
+        int current = getJeton();
+        prefs.edit().putInt(KEY_JETON, current + amount).apply();
+    }
+
+    // Jeton sıfırla
+    public void resetJeton() {
+        prefs.edit().putInt(KEY_JETON, 0).apply();
+    }
+}
