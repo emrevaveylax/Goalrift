@@ -3823,6 +3823,7 @@ int layout select_dialog_singlechoice_material 0x7f0c0082
 int layout store_item_card 0x7f0c0083
 int layout support_simple_spinner_dropdown_item 0x7f0c0084
 int mipmap ic_launcher 0x7f0e0000
+int mipmap ic_launcher_foreground 0x7f0e0002
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000
 int string abc_action_bar_home_description 0x7f100000

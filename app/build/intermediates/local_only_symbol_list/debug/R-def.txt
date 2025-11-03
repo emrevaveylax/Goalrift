@@ -48,6 +48,7 @@ layout item_forma_blue
 layout item_forma_gold
 layout store_item_card
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string back
