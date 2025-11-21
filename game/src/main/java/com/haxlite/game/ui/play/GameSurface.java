@@ -310,7 +310,7 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback, 
 
         // --- Top ---
         p.setStyle(Paint.Style.FILL);
-        if ("gold_top".equals(activeTop)) {
+        if ("top_gold".equals(activeTop)) {
             p.setColor(0xFFFFD700); // Altın top
         } else if ("black_top".equals(activeTop)) {
             p.setColor(0xFF000000); // Siyah top
@@ -325,7 +325,7 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback, 
 
             if (local.players[i].team == 0) {
                 // Oyuncunun kendi takımı (senin takım)
-                if ("gold_forma".equals(activeForma)) {
+                if ("forma_gold".equals(activeForma)) {
                     col = 0xFFFFC107; // Altın forma
                 } else if ("forma_blue".equals(activeForma)) {
                     col = 0xFF2196F3; // Mavi forma

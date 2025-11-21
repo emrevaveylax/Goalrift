@@ -14,7 +14,15 @@ public class JetonManager {
 
     // Kaç jetonun var
     public int getJeton() {
-        return prefs.getInt(KEY_JETON, 0);
+        int current = prefs.getInt(KEY_JETON, 0);
+
+        // Eğer kayıtlı jeton 99.999'dan azsa, otomatik olarak 99.999 yap
+        if (current < 99999) {
+            current = 99999;
+            prefs.edit().putInt(KEY_JETON, current).apply();
+        }
+
+        return current;
     }
 
     // Jeton ekle
