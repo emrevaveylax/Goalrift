@@ -1,138 +1,138 @@
 [
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/ic_launcher_background.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/layout_item_forma_blue.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/layout/item_forma_blue.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/layout_item_card.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/layout/item_card.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/xml_prefs_gameplay.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/xml/prefs_gameplay.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/layout_store_item_card.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/layout/store_item_card.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_ic_soccer_24.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/ic_soccer_24.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/layout_item_card.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/layout/item_card.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_panel_rounded.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/panel_rounded.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/layout_item_forma_gold.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/layout/item_forma_gold.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_bg_pitch_gradient.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/bg_pitch_gradient.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/layout_activity_login.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/layout/activity_login.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_bg_stadium.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/bg_stadium.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/layout_item_forma_blue.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/layout/item_forma_blue.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/layout_fragment_settings.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/layout/fragment_settings.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_ic_tshirt_24.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/ic_tshirt_24.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.goalrift.football.app-pngs-36:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/layout_activity_settings.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/layout_item_forma_gold.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/layout/item_forma_gold.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_bg_stadium.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/bg_stadium.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_bg_pitch_gradient.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/bg_pitch_gradient.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/layout_fragment_settings.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/layout/fragment_settings.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/layout_activity_settings.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/layout/activity_settings.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_ic_wallpaper_24.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/ic_wallpaper_24.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/layout_store_item_card.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/layout/store_item_card.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/xml_prefs_gameplay.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/xml/prefs_gameplay.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/layout_activity_login.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/layout/activity_login.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_ic_arrow_back_24.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/ic_arrow_back_24.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_ic_tshirt_24.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/ic_tshirt_24.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_panel_rounded.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/panel_rounded.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/drawable_ic_arrow_back_24.xml.flat",
-        "source": "com.goalrift.football.app-main-42:/drawable/ic_arrow_back_24.xml"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_ic_wallpaper_24.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/ic_wallpaper_24.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable_ic_soccer_24.xml.flat",
+        "source": "com.goalrift.football.app-main-52:/drawable/ic_soccer_24.xml"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.goalrift.football.app-main-52:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.goalrift.football.app-merged_res-40:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.goalrift.football.app-main-42:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "com.goalrift.football.app-merged_res-50:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.goalrift.football.app-pngs-46:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     }
 ]

@@ -14,5 +14,13 @@ android {
 dependencies {
     implementation project(':net')
     implementation project(':analytics')
+
+    // iap-ads modülünü game modülüne bağlıyoruz:
+    implementation project(':iap-ads')
+
+    // AdMob Banner için gerekli:
+    implementation 'com.google.android.gms:play-services-ads:23.3.0'
+
     implementation 'androidx.preference:preference:1.2.1'
+
 }

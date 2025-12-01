@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+id adViewStore
 id btnActiveArkaPlan
 id btnActiveFieldBlue
 id btnActiveForma
@@ -13,5 +14,6 @@ id btnBuyForma
 id btnBuyFormaGold
 id btnBuyTop
 id btnBuyTopGold
+id btnFreeJeton
 id jetonText
 layout activity_store

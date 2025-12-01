@@ -40,6 +40,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <Button
+                android:id="@+id/btnFreeJeton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="📺  REKLAM İZLE VE 100 JETON KAZAN"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FF9800"
+                android:layout_marginBottom="20dp"
+                android:elevation="6dp"/>
+
             <!-- ===== FORMALAR ===== -->
             <TextView
                 android:text="Formalar"
@@ -430,7 +442,17 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
             </LinearLayout>
-
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViewStore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8027726734791639/7641742366" />
         </LinearLayout>
     </ScrollView>
+
+
+
 </LinearLayout>

@@ -1,3 +1,4 @@
+int id adViewStore 0x0
 int id btnActiveArkaPlan 0x0
 int id btnActiveFieldBlue 0x0
 int id btnActiveForma 0x0
@@ -11,5 +12,6 @@ int id btnBuyForma 0x0
 int id btnBuyFormaGold 0x0
 int id btnBuyTop 0x0
 int id btnBuyTopGold 0x0
+int id btnFreeJeton 0x0
 int id jetonText 0x0
 int layout activity_store 0x0

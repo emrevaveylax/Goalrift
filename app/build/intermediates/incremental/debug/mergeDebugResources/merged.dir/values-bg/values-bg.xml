@@ -46,11 +46,33 @@
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
     <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Активиране</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Инсталиране</string>
+    <string name="common_google_play_services_install_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на устройството ви.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Наличност на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не се поддържат от устройството ви.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Актуализиране</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
+    <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="common_signin_button_text">Вход</string>
+    <string name="common_signin_button_text_long">Вход с Google</string>
     <string msgid="6083905920877235314" name="copy">"Копиране"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Връзката е копирана в буферната памет"</string>
     <string name="error_a11y_label">Грешка: невалидно</string>
     <string name="error_icon_content_description">Грешка</string>
     <string msgid="2427401033573778270" name="expand_button_title">"Разширени"</string>
     <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копиране на връзката"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Отваряне в браузър"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Споделяне на връзката"</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="item_view_role_description">Раздел</string>
     <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
@@ -111,9 +133,30 @@
     <string name="mtrl_picker_toggle_to_year_selection">Докоснете за превключване към годишен изглед</string>
     <string name="mtrl_timepicker_cancel">Отказ</string>
     <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="native_body">Основен текст</string>
+    <string name="native_headline">Заглавие</string>
+    <string name="native_media_view">Преглед на мултимедийния файл</string>
     <string msgid="6573031135582639649" name="not_set">"Не е зададено"</string>
+    <string name="notifications_permission_confirm">Разрешаване</string>
+    <string name="notifications_permission_decline">Забраняване</string>
+    <string name="notifications_permission_title">Разрешавате ли на приложението да ви изпраща известия?</string>
+    <string name="offline_dialog_image_description">Икона</string>
+    <string name="offline_dialog_text">Благодарим за проявения интерес.\nЩе споделим още информация, когато отново сте онлайн.</string>
+    <string name="offline_notification_title">Отново сте онлайн! Да продължим оттам, откъдето прекъснахме</string>
+    <string name="offline_notification_title_with_advertiser">Отново сте онлайн! Продължете обучението за %s</string>
+    <string name="offline_opt_in_confirm">ОК</string>
+    <string name="offline_opt_in_decline">Не</string>
+    <string name="offline_opt_in_message">Ще ви изпратим известие с връзка към сайта на рекламодателя.</string>
+    <string name="offline_opt_in_title">Отворете рекламата, когато отново сте онлайн.</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
     <string msgid="6685851473431805375" name="preference_copied">"Копирахте „<ns1:g id="SUMMARY">%1$s</ns1:g>“ в буферната памет."</string>
+    <string name="s1">Запазване на изображението</string>
+    <string name="s2">Да се разреши ли на рекламата да съхрани изображение в галерията със снимки?</string>
+    <string name="s3">Приемам</string>
+    <string name="s4">Отхвърлям</string>
+    <string name="s5">Създаване на събитие в календара</string>
+    <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
+    <string name="s7">Тестова реклама</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Търсене"</string>
     <string name="searchview_clear_text_content_description">Изчистване на текста</string>
     <string name="searchview_navigation_content_description">Назад</string>
@@ -122,4 +165,5 @@
     <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string msgid="3140233346420563315" name="v7_preference_off">"ИЗКЛ."</string>
     <string msgid="89551595707643515" name="v7_preference_on">"ВКЛ."</string>
+    <string name="watermark_label_prefix">AdMob – </string>
 </resources>

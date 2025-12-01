@@ -9,6 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Goalrift">
 
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8027726734791639~4704480035"/>
+
         <!-- Login ekranı açılışta gözükecek -->
         <activity
             android:name=".LoginActivity"
