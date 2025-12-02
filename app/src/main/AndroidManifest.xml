@@ -51,12 +51,12 @@
             android:theme="@style/Theme.Haxlite.Settings"
             android:parentActivityName=".MainActivity" />
 
+        <!-- Mağaza Ekranı - Yan Döndürme Eklendi -->
         <activity android:name="com.goalrift.football.game.ui.store.StoreActivity"
             android:exported="false"
             android:label="Mağaza"
+            android:screenOrientation="sensorLandscape"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-
-
 
     </application>
 </manifest>

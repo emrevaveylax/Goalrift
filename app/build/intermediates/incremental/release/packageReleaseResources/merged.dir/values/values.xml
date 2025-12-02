@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="graphics_quality_entries">
+        <item>Düşük</item>
+        <item>Orta</item>
+        <item>Yüksek</item>
+    </string-array>
+    <string-array name="graphics_quality_values">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="goal_yellow">#FFC107</color>
+    <color name="pitch_green">#0B8F3A</color>
+    <color name="ui_grey">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Goalrift</string>
+    <string name="back">Geri</string>
+    <style name="PreferenceThemeOverlay.Haxlite" parent="PreferenceThemeOverlay">
+        
+        
+    </style>
+    <style name="Theme.Goalrift" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="android:statusBarColor">@color/ui_grey</item>
+        
+        
+        <item name="android:windowBackground">@drawable/bg_stadium</item>
+
+    </style>
+    <style name="Theme.Haxlite.Settings" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1B5E20</item>
+        <item name="colorSecondary">#43A047</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.Haxlite</item>
+    </style>
+</resources>

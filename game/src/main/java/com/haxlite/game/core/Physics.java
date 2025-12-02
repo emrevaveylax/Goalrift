@@ -4,7 +4,7 @@ import static com.goalrift.football.game.core.Constants.*;
 
 public class Physics {
 
-    public static void initKickoff(WorldState w){
+    public static void initKickoff(com.goalrift.football.game.core.WorldState w){
         // Topu merkeze al ve durdur
         w.ball.x=FIELD_W/2f; w.ball.y=FIELD_H/2f; w.ball.vx=0; w.ball.vy=0;
 
@@ -29,7 +29,7 @@ public class Physics {
 
         // Çoklu oyuncu için basit simetrik dağıtım (takım 0 sol, takım 1 sağ)
         for(int i=0;i<w.players.length;i++){
-            Player p = w.players[i];
+            com.goalrift.football.game.core.Player p = w.players[i];
             p.team = i%2;
             float side = (p.team==0)? -1f : +1f;
             float rank = (i/2); // aynı takımda yukarı-aşağı dağılım
@@ -40,7 +40,7 @@ public class Physics {
         }
     }
 
-    public static void step(WorldState w){
+    public static void step(com.goalrift.football.game.core.WorldState w){
         // Geri sayım sırasında fizik dondur
         if (w.countdownMs > 0) {
             w.countdownMs -= (int)(DT * 1000f);
@@ -49,7 +49,7 @@ public class Physics {
         }
 
         // oyuncular
-        for(Player p: w.players){
+        for(com.goalrift.football.game.core.Player p: w.players){
             p.x += p.vx*DT;
             p.y += p.vy*DT;
             p.vx *= FRIC; p.vy *= FRIC;

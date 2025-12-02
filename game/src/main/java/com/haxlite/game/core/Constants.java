@@ -18,7 +18,7 @@ public class Constants {
     public static final float BOUNCE = 0.9f;
 
     // YENİ: maç süresi ve kickoff ayarları
-    public static final int MATCH_DURATION_MS = 180_000;      // 3 dakika
+    public static final int MATCH_DURATION_MS = 90_000;      // 1.30 dakika
     public static final int KICKOFF_COUNTDOWN_MS = 3_000;     // 3 sn geri sayım
     public static final float KICKOFF_OFFSET_X = 18f;         // merkezden sağ/sol mesafe
 }
